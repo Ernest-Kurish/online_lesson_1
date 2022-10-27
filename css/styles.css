@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding:0;
+}
+
+:root {
+    --color-gray:#303030;
+    --font-raleway: 'Raleway', sans-serif;
+    --font-roboto: 'Roboto', sans-serif;
+
+}
+
+body {
+    font-family: var(--font-roboto);
+    font-style: normal;
+}
+
+.header {
+background-color: yellowgreen;
+}
+
+.header a {
+
+font-weight: 600;
+font-size: 12px;
+line-height: 1.3333px;
+letter-spacing: 0.1em;
+text-decoration: none;
+color: #FFFFFF;
+}
+
+.logo {
+
+}
+.header-nav {
+list-style: none;
+}
+
+.header-contact {
+    /*  
+font-weight: 600;
+font-size: 12px;
+line-height: 1.3333px;
+letter-spacing: 0.1em; 
+color: #FFFFFF; */
+
+text-transform: uppercase;
+}
+
+.header-btn {
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 0.09em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+
+.header-nav-link {
+ /*  
+font-weight: 600;
+font-size: 12px;
+line-height: 1.3333px;
+letter-spacing: 0.1em;
+color: #FFFFFF; */
+
+
+
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus {
+    color: #FF6C00;
+}
+
+ul {
+    list-style: none;
+
+}
+
+.uptitle {
+
+font-weight: 600;
+font-size: 11px;
+line-height: 15px;
+text-transform: uppercase;
+color: var(--color-gray);
+
+}
+
+.hero {
+background-image: url(../images/Slider\ img\ 3.jpg);
+}
+
+.hero-uptitle {
+    color: rgba(157, 164, 189, 0.6);
+}
+
+
+.hero-title {
+
+font-family: var(--font-raleway);
+font-size:72px;
+line-height: 1.1805;
+letter-spacing: 0.05em;
+color: #FFFFFF;
+}
+
+.hero-subtitle {
+font-size: 18px;
+line-height: 1.6666;
+color: #9DA4BD;
+}
